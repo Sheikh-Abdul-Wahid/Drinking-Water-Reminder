@@ -9,4 +9,4 @@ if __name__ == "__main__":      # Ensures the script runs only when executed dir
             app_icon = "F:\\Python Learning Journey\\Drink Water Notify Project\\icon.ico",   # Path to the icon file for the notification
             timeout = 7      # Duration (in seconds) the notification will stay visible
         )
-        time.sleep(60 * 30)  # Wait for 30 minutes before showing the next notification
+        time.sleep(60*60)  # Wait for 1 hour (in seconds i.e 3600 sec) before showing the next notification
